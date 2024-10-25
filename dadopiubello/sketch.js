@@ -51,7 +51,7 @@ function drawDice(value, angle) {
   rect(-50, -50, 100, 100, 10); 
   fill("black");
   
-  // puntini dado
+  // puntini su dado
   if (value === 1) {
     ellipse(0, 0, 20, 20);
   } else if (value === 2) {
