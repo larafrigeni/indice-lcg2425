@@ -124,3 +124,78 @@ ul li:nth-child(5) a:before {
 ul li:nth-child(6) a:before {
   background: #8f959a;
 }
+
+ul {
+  margin-top: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 20px;
+  display: flex;
+  position: absolute;
+  margin-top: 530px;
+  margin-left: 47px;
+}
+
+div {
+  display: flex;
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 8px;
+}
+
+div > * {
+  margin-left: 40px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(40, 40, 40);
+  border-radius: 20px;
+  font-size: 1em;
+  padding: 20px;
+  font-weight: bold;
+  border: 4px solid rgb(40, 40, 40);
+  width: 150px;
+}
+
+div > *:hover {
+  background-color: white;
+  color: rgb(40, 40, 40);
+  border: 4px solid rgb(40, 40, 40);
+}
+
+img {
+  position: absolute;
+  bottom: 150px;
+  right: 200px;
+  max-width: 10%;
+  height: auto;
+  animation: rotate 10s linear infinite;
+  cursor: pointer;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.assign {
+  position: absolute; /* Position the assign container absolutely */
+  bottom: 20px; /* Distance from the bottom */
+  right: 20px; /* Distance from the right */
+}
+
+.assign ul {
+  list-style: none; /* Remove list style */
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+  color: inherit; /* Inherit color from parent */
+  font-size: inherit; /* Inherit font size from parent */
+  text-decoration: none; /* Remove text decoration */
+}
