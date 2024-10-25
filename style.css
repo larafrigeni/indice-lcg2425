@@ -168,8 +168,8 @@ div > *:hover {
 
 img {
   position: absolute;
-  bottom: 150px;
-  right: 200px;
+  bottom: 100px;
+  right: 150px;
   max-width: 10%;
   height: auto;
   animation: rotate 10s linear infinite;
